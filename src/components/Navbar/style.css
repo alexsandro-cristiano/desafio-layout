@@ -1,0 +1,22 @@
+nav {
+    min-height: 70px;
+    color: #00285f;
+    background: #f78b00;
+}
+.logo h4 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 21px 20px;
+}
+.menu {
+    padding: 0 20px 32px;
+    width: 380px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.active{
+    font-weight: 700;
+}
+li+li{
+    margin-top: 12px;
+}

@@ -1,6 +1,7 @@
 .cardContainer {
-    border: 1px solid rebeccapurple;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
     padding-top: 20px;
 }
 .cardTop {
@@ -9,14 +10,12 @@
     background: var(--primary-color);
     color: #fff;
 }
-.cardImagem {
+img {
     padding: 62px 28px 35px;
-}
-.cardImagem img {
     width: 100%;
 }
 .cardContent {
-    padding: 0 21px 51px;
+    padding: 0 21px 41px;
 }
 .cardContent h3 {
     font-size: 19px;

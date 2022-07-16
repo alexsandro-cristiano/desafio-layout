@@ -1,12 +1,11 @@
 import CarHeaderImg from "../../assets/images/car-header.png";
+import { Button } from "../../components/Button";
 import "./style.css";
 export function Home() {
   return (
     <div className="cardContainer">
       <div className=" baseCard cardTop">
-        <div className="cardImagem">
-            <img src={CarHeaderImg} alt="Carro Amarelo" />
-        </div>
+        <img src={CarHeaderImg} alt="Carro Amarelo" />
         <div className="cardContent">
           <h3>O carro perfeito para você</h3>
           <p>
@@ -15,7 +14,7 @@ export function Home() {
         </div>
       </div>
       <div className=" baseCard cardBottom">
-        botao
+        <Button />
         <p>Comece agora a navegar</p>
       </div>
     </div>

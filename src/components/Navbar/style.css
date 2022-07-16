@@ -1,6 +1,6 @@
 nav {
     min-height: 70px;
-    color: #00285f;
+    color: var(--primary-color);
     background: #f78b00;
 }
 .logo h4 {

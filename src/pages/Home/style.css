@@ -1,0 +1,44 @@
+.cardContainer {
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+    padding-top: 20px;
+}
+.cardTop {
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
+    color: #fff;
+}
+.cardImagem {
+    padding: 62px 28px 35px;
+}
+.cardImagem img {
+    width: 100%;
+}
+.cardContent {
+    padding: 0 21px 51px;
+}
+.cardContent h3 {
+    font-size: 19px;
+    margin-bottom: 13px;
+}
+.cardContent p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+.cardBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+    background: #ededed;
+    box-shadow: none;
+    height: 123px;
+}
+.cardBottom p {
+    color: #585858;
+    margin-top: 9px;
+    font-size: 18px;
+}

@@ -1,14 +1,12 @@
 import React from "react";
 import "./assets/styles/custom.scss";
 import "./assets/styles/global.css";
-import { Navbar } from "./components/Navbar";
-import { Home } from "./pages/Home";
+import { Routes } from "./Routes";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
+      <Routes/>
     </>
   );
 }

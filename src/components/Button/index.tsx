@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import "./style.css";
 export function Button() {
   return (
-    <a href="" className="btn btn-primary">
-      ver carálogo
-    </a>
+    <Link to="/products" className="btn btn-primary">
+      ver catálogo
+    </Link>
   );
 }

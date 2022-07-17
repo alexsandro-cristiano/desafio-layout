@@ -1,13 +1,14 @@
 import { ReactComponent as MenuIcon } from "../../assets/images/menu-icon.svg";
 import "./style.css";
 import "bootstrap/js/src/collapse.js";
+import { Link, NavLink } from "react-router-dom";
 export function Navbar() {
   return (
     <nav className="navbar-expand-md navbar navbar-dark">
       <div className="container-fluid wrapper">
-        <a href="#" className="logo">
+        <Link to="/" className="logo">
           <h4>Carros Top</h4>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,11 +22,15 @@ export function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCarrosTop">
           <ul className="navbar-nav offset-md-8 menu">
-            <li>
-              <a href="link" className="active">Home</a>
+          <li>
+              <NavLink to="/" activeClassName="active" exact>
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="link">Catálogo</a>
+              <NavLink to="/products" activeClassName="active" exact>
+                Catálogo
+              </NavLink>
             </li>
           </ul>
         </div>

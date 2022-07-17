@@ -28,3 +28,11 @@ li + li {
         padding: 0;
     }
 }
+
+@media (min-width: 1200px) {
+    nav {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+}

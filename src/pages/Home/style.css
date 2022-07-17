@@ -65,7 +65,7 @@ img {
     }
     .cardContent p {
         font-size: 18px;
-        line-height: 21px;     
+        line-height: 21px;
     }
     .cardBottom {
         flex-direction: row;
@@ -78,14 +78,14 @@ img {
     }
 }
 @media (min-width: 768px) {
-     img {
+    img {
         padding: 79px 197px 37px;
         width: 100%;
     }
     .cardContent {
-        padding-bottom:76px;
+        padding-bottom: 76px;
     }
-    .cardContent p{
+    .cardContent p {
         margin: 0 130px;
     }
     .cardBottom {
@@ -93,15 +93,42 @@ img {
         padding-left: 85px;
     }
 }
-/*
 @media (min-width: 992px) {
-   
+    img {
+        padding: 82px 249px 17px;
+        width: 100%;
+    }
+    .cardContent h3 {
+        font-size: 40px;
+    }
 }
-
 @media (min-width: 1200px) {
-    
-}
+    .cardContainer {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 
-@media (min-width: 1400px) {
-  
-}*/
+    .cardTop {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    img {
+        padding: 0;
+        margin: 83px 78px 83px 63px;
+        width: 300px;
+        height: 200px;
+    }
+    .cardContent {
+        text-align: left;
+        padding: 0;
+        margin-left: 85px;
+    }
+    .cardContent h3 {
+        font-size: 36px;
+    }
+    .cardContent p {
+        text-align: left;
+        width: 420px;
+        margin: 0;
+    }
+}

@@ -10,13 +10,21 @@ nav {
 }
 .menu {
     padding: 0 20px 32px;
-    width: 380px;
     font-size: 18px;
     font-weight: 400;
 }
-.active{
+.active {
     font-weight: 700;
 }
-li+li{
+li + li {
     margin-top: 12px;
+}
+@media (min-width: 768px) {
+    li + li {
+        margin-top: 0px;
+    }
+    .navbar-nav.offset-md-8.menu {
+        gap: 48px;
+        padding: 0;
+    }
 }

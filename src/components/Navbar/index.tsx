@@ -4,7 +4,7 @@ import "bootstrap/js/src/collapse.js";
 export function Navbar() {
   return (
     <nav className="navbar-expand-md navbar navbar-dark">
-      <div className="container-fluid">
+      <div className="container-fluid wrapper">
         <a href="#" className="logo">
           <h4>Carros Top</h4>
         </a>
@@ -20,7 +20,7 @@ export function Navbar() {
           <MenuIcon />
         </button>
         <div className="collapse navbar-collapse" id="navbarCarrosTop">
-          <ul className="navbar-nav offset-md-2 menu">
+          <ul className="navbar-nav offset-md-8 menu">
             <li>
               <a href="link" className="active">Home</a>
             </li>

@@ -10,7 +10,7 @@ export function ProductCard() {
       <div className="bottomCard">
         <h6>Audi Supra TT</h6>
         <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <Button propriedade="comprar"/>
+        <Button text="comprar" link="/products"/>
       </div>
     </div>
   );

@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import "./style.css";
-export function Button(prop:any) {
+
+type Props = {
+  text:string;
+  link:string;
+}
+export function Button(props:Props) {
   return (
-    <Link to="/products" className="btn btn-primary">
-      {prop.propriedade}
+    <Link to={props.link} className="btn btn-primary">
+      {props.text}
     </Link>
   );
 }

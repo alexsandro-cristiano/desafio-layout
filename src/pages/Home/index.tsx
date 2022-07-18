@@ -14,7 +14,7 @@ export function Home() {
         </div>
       </div>
       <div className=" baseCard cardBottom">
-      <Button propriedade="ver catálogo"/>
+        <Button text="ver catálogo" link="/products" />
         <p>Comece agora a navegar</p>
       </div>
     </div>
